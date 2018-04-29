@@ -102,5 +102,11 @@ disass_insn one_byte_insn[] =
     { pusha },          // 0x60
     { popa },           // 0x61
     { bound },          // 0x62
+    { arpl },           // 0x63
+    { NULL },           // 0x64
+    { NULL },           // 0x65
+    { NULL },           // 0x66
+    { NULL },           // 0x67
+
 };
 
