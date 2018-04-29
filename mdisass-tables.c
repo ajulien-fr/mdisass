@@ -99,5 +99,7 @@ disass_insn one_byte_insn[] =
     { pop_eBP },        // 0x5D
     { pop_eSI },        // 0x5E
     { pop_eDI },        // 0x5F
+    { pusha },          // 0x60
+    { popa },           // 0x61
 };
 
