@@ -121,5 +121,7 @@ list_head * bound(disass_data *data, list_head *list_insn, list_head *list_pfx);
 
 list_head * arpl(disass_data *data, list_head *list_insn, list_head *list_pfx);
 
+list_head * push_Ivs(disass_data *data, list_head *list_insn, list_head *list_pfx);
+
 #endif // __MDISASS_INSN_H__
 
