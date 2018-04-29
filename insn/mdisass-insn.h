@@ -117,5 +117,7 @@ list_head * pop_eDI(disass_data *data, list_head *list_insn, list_head *list_pfx
 list_head * pusha(disass_data *data, list_head *list_insn, list_head *list_pfx);
 list_head * popa(disass_data *data, list_head *list_insn, list_head *list_pfx);
 
+list_head * bound(disass_data *data, list_head *list_insn, list_head *list_pfx);
+
 #endif // __MDISASS_INSN_H__
 
