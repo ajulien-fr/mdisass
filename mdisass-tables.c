@@ -108,5 +108,6 @@ disass_insn one_byte_insn[] =
     { NULL },           // 0x66
     { NULL },           // 0x67
     { push_Ivs },       // 0x68
+    { imul_Gv_Ev_Iv },  // 0x69 	
 };
 
